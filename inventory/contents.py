@@ -21,3 +21,7 @@ def all_inventory():
     for item_name in _player_inventory:
         all += [item_name]
     return all
+
+if __name__ == "__main__":
+    print(remove_item('sword'))
+    pass

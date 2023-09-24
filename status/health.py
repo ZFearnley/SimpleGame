@@ -15,3 +15,8 @@ def reduce(pValue):
 def increase(pValue):
     global _health_value
     _health_value += pValue
+
+if __name__ == "__main__":
+    test = input("Hello")
+    print(reduce(test))
+    pass

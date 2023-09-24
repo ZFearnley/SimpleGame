@@ -25,3 +25,8 @@ def valid_list(p_input_string):
             result += [astring]
 
     return result
+
+if __name__ == "__main__":
+    test = input("Hello")
+    print(valid_list(test))
+    pass

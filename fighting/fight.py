@@ -44,3 +44,7 @@ def fight(game_place):
         result = "Visit the blacksmith to get a sword.\n"+cm.show_current_place()
     return result
 
+if __name__ == "__main__":
+    print(fight('forest'))
+    pass
+

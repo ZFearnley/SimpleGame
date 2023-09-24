@@ -64,7 +64,7 @@ def enter_castle(game_place):
 
 
 
-
+#Dictionary
 game_state = 'Forest'
 game_places = {'Forest': {'Story': 'You are in the forest.\nTo the north is a cave.\nTo the east is a Village.\nTo the south is a castle.\nTo the west is a swamp',
                           'North': (move, 'Cave'), 'East': (move, 'Village'), 'South': (move, 'Castle'), 'West': (move, 'Swamp'),  'Image': 'forest.png'},
@@ -120,3 +120,7 @@ def game_play(command_input):
             else:
                 story_result = f"Can't {the_place} here\n"+show_current_place()
     return story_result
+
+if __name__ == "__main__":
+    print(game_play('north'))
+    pass
